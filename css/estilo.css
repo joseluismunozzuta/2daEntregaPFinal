@@ -454,6 +454,14 @@ table, th, td {
         align-content: flex-end;
         width: 100%;
     }
+    #preciosHabi{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+    }
     .row .card{
         width: 80%;
     }
@@ -467,7 +475,10 @@ table, th, td {
         align-content: center;
         width: 100%;
     }
-    #nosotrosIndex .accordion{
+    #preciosHabi #son{
+        width: 80%;
+    }
+    #preciosHabi #son2{
         width: 80%;
     }
     #nosotrosIndex .carousel{
