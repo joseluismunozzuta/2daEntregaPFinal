@@ -3,31 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-.btn {
-    background: #1d155f;
-    border: medium none;
-    border-radius: 5px;
-    color: #fff;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    line-height: 0;
-    margin-bottom: 0;
-    padding: 25px 39px;
-    text-align: center;
-    text-transform: capitalize;
-    touch-action: manipulation;
-    transition: all 0.3s ease 0s;
-    vertical-align: middle;
-    white-space: nowrap; 
-}
-
-.btn:hover {
-    background: #039297;
-    color: #fff; 
-}
 .headercss{
     background-image:linear-gradient(to right, lightseagreen, rgb(172, 236, 201));
     width: 100%;
@@ -64,7 +39,7 @@ label{
 .menunav ul li{
     display: inline-block;
 }
-.menunav ul li a {
+nav ul li a {
     color: #09134d;
     padding: 20px 20px;
     display: inline-block;
@@ -471,7 +446,33 @@ table, th, td {
         gap: 0px;
         align-items: center;
     }
-    
+    #cardsIndex{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-content: flex-end;
+        width: 100%;
+    }
+    .row .card{
+        width: 80%;
+    }
+    .container{
+        justify-content: center;
+        align-content: center;
+    }
+    #nosotrosIndex{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 100%;
+    }
+    #nosotrosIndex .accordion{
+        width: 80%;
+    }
+    #nosotrosIndex .carousel{
+        width: 80%;
+    }
     .filamenu{
         display:flex;
         padding: 5px;
